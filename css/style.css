@@ -1,3 +1,9 @@
 .warna-bg {
   background: linear-gradient(to right, rgba(91, 134, 229, .92), rgba(54, 209, 220, .92));
 }
+
+.jumbotron-bg {
+  background-size: cover;
+  background: url("../img/background.png");
+  background-size: 300px;
+}
