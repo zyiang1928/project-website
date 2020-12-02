@@ -15,30 +15,48 @@
   <!-- Awal Navbar -->
   <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
+      <nav class="navbar navbar-expand-lg navbar-light p-3">
+        <a class="navbar-brand mb-3" href="index.html">
           <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
           <b>Baraya Roleplay</b>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="text-center navbar-pills navbar-fill">
-            <ul class="navbar-nav mr-auto">
+        <div class="position-sticky">
+          <div class="collapse navbar-collapse col-md-3 col-lg-2" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto flex-column">
               <li class="nav-item active warna-bg">
-                <a class="nav-link" style="color: white;" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" style="color: white;" aria-current="page" href="index.html">
+                  <span class="sl-only ml-2">Home</span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color: black;" href="about.html">About</a>
+                <a class="nav-link" style="color: black;" href="about.html">
+                  <span class="ml-2">About</span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color: black;" href="team.html">Team</a>
+                <a class="nav-link" style="color: black;" href="team.html">
+                  <span class="ml-2">Team</span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color: black;" href="contacts.html">Contacts</a>
+                <a class="nav-link" style="color: black;" href="contacts.html">
+                  <span class="ml-2">Contacts</span>
+                </a>
               </li>
             </ul>
+            <form>
+              <div class="form-row">
+                <div class="col">
+                  <input type="search" class="form-control form-control-dark" placeholder="Search" aria-label="Search">
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-outline-primary">Search</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </nav>
@@ -46,18 +64,6 @@
   </header>
   <!-- Akhir Navbar -->
   <!-- Awal Jumbotron -->
-  <div class="container">
-    <form>
-      <div class="form-row mb-3">
-        <div class="col">
-          <input type="search" class="form-control my-2 my-sm-0" placeholder="Search" aria-label="Search">
-        </div>
-        <div class="col">
-          <button type="submit" class="btn btn-outline-primary my-2 my-sm-0">Search</button>
-        </div>
-      </div>
-    </form>
-  </div>
   <section class="jumbotron-bg">
     <div class="jumbotron warna-bg text-white text-center">
       <div class="container">
