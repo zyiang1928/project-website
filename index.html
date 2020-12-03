@@ -14,66 +14,57 @@
 <body>
   <!-- Awal Navbar -->
   <header>
-    <!-- div class="container" -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
-      <div class="d-flex col-12 col-md-3 col-lg-2 mb-2 mb-lg-0 flex-wrap flex-md-nowrap justify-content-between">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-3">
         <a class="navbar-brand mb-3" href="index.html">
           <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
           <b>Baraya Roleplay</b>
         </a>
-        <button class="navbar-toggler d-md-none collapsed mb-3" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
-      <div class="col-12 col-md-4 col-lg-2">
-        <form>
-          <div class="form-row">
-            <div class="col">
-              <input type="search" class="form-control form-control-dark" placeholder="Search" aria-label="Search">
+        <div class="col-md-12 mb-3 lg-3">
+          <form class="form-inline">
+            <div class="form-row">
+              <div class="col">
+                <input type="search" class="form-control form-control-dark" placeholder="Search" aria-label="Search">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-outline-primary">Search</button>
+              </div>
             </div>
-            <div class="col">
-              <button type="submit" class="btn btn-outline-primary">Search</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-          <div class="position-sticky">
-            <!-- div class="collapse navbar-collapse col-md-3 col-lg-2" id="navbarSupportedContent" -->
-            <ul class="navbar-nav mr-auto flex-column">
-              <li class="nav-item active warna-bg">
-                <a class="nav-link" style="color: white;" aria-current="page" href="index.html">
-                  <span class="sl-only ml-2">Home</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: black;" href="about.html">
-                  <span class="ml-2">About</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: black;" href="team.html">
-                  <span class="ml-2">Team</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: black;" href="contacts.html">
-                  <span class="ml-2">Contacts</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span class="btn btn-sm btn-primary ml-3 mt-2">By Reggie</span>
-                </a>
-              </li>
-            </ul>
-            <!-- /div -->
-          </div>
-        </nav>
-      </div>
+          </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto flex-column">
+            <li class="nav-item active warna-bg">
+              <a class="nav-link" style="color: white;" aria-current="page" href="index.html">
+                <span class="sl-only ml-2">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: black;" href="about.html">
+                <span class="ml-2">About</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: black;" href="team.html">
+                <span class="ml-2">Team</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: black;" href="contacts.html">
+                <span class="ml-2">Contacts</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="btn btn-sm btn-primary ml-3 mt-2">By Reggie</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
   <!-- Akhir Navbar -->
