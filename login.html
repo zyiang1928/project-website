@@ -8,10 +8,37 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
   <title>Login | Baraya Roleplay</title>
 </head>
 
 <body>
+  <!-- Awal Form -->
+  <div class="container">
+    <h1>Login</h1>
+    <form>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Input Email">
+        <small id="emailHelp" class="form-text text-muted">Kami tidak akan pernah membagikan email Anda dengan orang lain.</small>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Input Password">
+      </div>
+      <div class="form-group">
+        <label for="password">Confirm Password</label>
+        <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Input Confirm Password">
+        <small id="passwordHelp" class="form-text text-muted">Kata sandi Anda harus terdiri dari 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.</small>
+      </div>
+      <div class="custom-control custom-switch mb-3">
+        <input type="checkbox" class="custom-control-input" id="customSwitch">
+        <label class="custom-control-label" for="customSwitch">Accept</label>
+      </div>
+      <button type="submit" class="btn btn-primary" href="index.html">Login</button>
+    </form>
+  </div>
+  <!-- Akhir Form -->
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
