@@ -93,32 +93,25 @@
             </h5>
             <form>
               <div class="form-group">
-                <label for="username">*Username</label>
-                <input type="text" class="form-control" id="inputUsername" placeholder="Input Username">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Input Username" required>
               </div>
               <div class="form-group">
-                <label for="email">*Email address</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Input Email">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Input Email" required>
                 <small id="emailHelp" class="form-text text-muted">Kami tidak akan pernah membagikan email Anda dengan orang lain.</small>
               </div>
               <div class="form-group">
-                <label for="password">*Password</label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Input Password">
-              </div>
-              <div class="form-group">
-                <label for="password">*Confirm Password</label>
-                <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Input Confirm Password">
-                <small id="passwordHelp" class="form-text text-muted">Kata sandi Anda harus terdiri dari 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.</small>
-              </div>
-              <div class="form-group">
-                <label for="textarea">*Pesan (Optional)</label>
-                <textarea class="form-control" id="inputTextArea" rows="5" placeholder="Input Text"></textarea>
+                <label for="textarea">Pesan (Optional)</label>
+                <textarea class="form-control" id="inputTextArea" rows="5" placeholder="Input Text" required></textarea>
               </div>
               <div class="custom-control custom-switch mb-3">
-                <input type="checkbox" class="custom-control-input" id="customSwitch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch" required>
                 <label class="custom-control-label" for="customSwitch">Agree to terms and conditions</label>
               </div>
-              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-primary">
+                <span class="ml-2">Submit</span>
+              </button>
             </form>
           </div>
         </div>
