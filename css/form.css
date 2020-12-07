@@ -56,3 +56,16 @@ body {
   font-size: 18px;
   color: #fafafa;
 }
+
+.container p {
+  color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 4px solid #2979ff;
+}
+
+.container a {
+  color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+}
