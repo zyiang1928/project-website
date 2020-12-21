@@ -6,16 +6,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/form.css">
-  <title>Login | Baraya Roleplay</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/form.css">
+  <title>Register | Baraya Roleplay</title>
 </head>
 
 <body>
   <!-- Awal Form -->
   <div class="container">
-    <h1>Login</h1>
+    <h1>Register</h1>
     <form class="needs-validation" novalidate>
       <div class="form-group">
         <label for="email">Email address</label>
@@ -30,12 +30,19 @@
         <div class="invalid-feedback">
           Kata sandi Anda harus terdiri dari 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.
         </div>
+        <div class="form-group">
+          <label for="password">Confirm Password</label>
+          <input type="password" class="form-control" id="inputPassword" placeholder="Input Confirm Password" required>
+          <div class="invalid-feedback">
+            Pastikan kata sandi Anda sama dengan yang dibuat.
+          </div>
+        </div>
       </div>
       <div class="custom-control custom-switch mb-3">
         <input type="checkbox" class="custom-control-input" id="customSwitch" required>
         <label class="custom-control-label" for="customSwitch">Agree to terms and conditions</label>
       </div>
-      <button type="submit" class="btn btn-primary" href="index.html">Login</button>
+      <button type="submit" class="btn btn-primary" href="index.html">Submit</button>
     </form>
     <script type="text/javascript">
       (function() {
@@ -55,17 +62,17 @@
       })();
     </script>
     <p>
-      Belum Punya Akun? Silahkan daftar dengan klik tombol dibawah ini.
-      <a class="btn btn-primary" href="register.html" role="button">Sign Up</a>
+      Sudah Punya Akun? Silahkan login dengan klik tombol dibawah ini.
+      <a class="btn btn-primary" href="login.html" role="button">Sign In</a>
     </p>
   </div>
   <!-- Akhir Form -->
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="../js/jquery-3.5.1.slim.min.js"></script>
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../index.js"></script>
 </body>
 
 </html>

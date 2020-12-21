@@ -1,0 +1,28 @@
+{
+  "name": "project-website",
+  "version": "0.7.0",
+  "description": "Website ini dibuat untuk belajar",
+  "main": "index.js",
+  "author": "zуιαиg 것ダ",
+  "homepage": "https://github.com/zyiang1928/project-website",
+  "repository": "github:zyiang1928/project-website",
+  "bugs": "https://github.com/zyiang1928/project-website/issues",
+  "engines": {
+    "node": "12.x",
+    "npm": "*"
+  },
+  "dependencies": {
+    "fs": "^0.0.2",
+    "ms": "^2.1.3",
+    "moment": "^2.29.1",
+    "node-superfetch": "^0.1.10",
+    "request": "^2.88.2",
+    "superagent": "^6.1.0",
+    "quick.db": "^7.1.2",
+    "http": "^0.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
