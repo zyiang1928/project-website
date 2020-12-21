@@ -16,19 +16,27 @@
   <!-- Awal Form -->
   <div class="container">
     <h1>Register</h1>
-    <form>
+    <form class="needs-validation" novalidate>
       <div class="form-group">
         <label for="email">Email address</label>
         <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Input Email" required>
+        <div class="invalid-feedback">
+          Silahkan ketikkan email Anda dengan benar!
+        </div>
       </div>
       <div class="form-group">
         <label for="password">Password</label>
         <input type="password" class="form-control" id="inputPassword" placeholder="Input Password" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Confirm Password</label>
-        <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Input Confirm Password" required>
-        <small id="passwordHelp" class="form-text text-muted">Kata sandi Anda harus terdiri dari 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.</small>
+        <div class="invalid-feedback">
+          Kata sandi Anda harus terdiri dari 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.
+        </div>
+        <div class="form-group">
+          <label for="password">Confirm Password</label>
+          <input type="password" class="form-control" id="inputPassword" placeholder="Input Confirm Password" required>
+          <div class="invalid-feedback">
+            Pastikan kata sandi Anda sama dengan yang dibuat.
+          </div>
+        </div>
       </div>
       <div class="custom-control custom-switch mb-3">
         <input type="checkbox" class="custom-control-input" id="customSwitch" required>
@@ -36,8 +44,25 @@
       </div>
       <button type="submit" class="btn btn-primary" href="index.html">Submit</button>
     </form>
+    <script type="text/javascript">
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          var forms = document.getElementsByClassName('needs-validation');
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
     <p>
-      Sudah Punya Akun? Silahkan daftar dengan klik tombol dibawah.
+      Sudah Punya Akun? Silahkan login dengan klik tombol dibawah ini.
       <a class="btn btn-primary" href="login.html" role="button">Sign In</a>
     </p>
   </div>
