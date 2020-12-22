@@ -12,6 +12,7 @@ app.get("/", function(request, response) {
   response.sendStatus(200);
   response.sendFile(__dirname + "/index.html");
 });
+
 server.listen(process.env.PORT, function() {
   console.log(`[Website] Listening on port: ${process.env.PORT}`);
 });
