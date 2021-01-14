@@ -1,5 +1,5 @@
 console.log("[Website] Launching...");
-
+/*
 const http = require('http');
 const express = require('express');
 const app = express();
@@ -20,3 +20,4 @@ server.listen(process.env.PORT, function() {
 setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000);
+*/
