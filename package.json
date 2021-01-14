@@ -2,7 +2,7 @@
   "name": "project-website",
   "version": "0.7.0",
   "description": "Website ini dibuat untuk belajar",
-  "main": "index.js",
+  "main": "/js/main.js",
   "author": "zуιαиg 것ダ",
   "homepage": "https://github.com/zyiang1928/project-website",
   "repository": "github:zyiang1928/project-website",
