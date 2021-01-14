@@ -11,48 +11,35 @@
   <title>Home | My Website</title>
 </head>
 
-<body>
+<body id="home">
   <!-- Awal Navbar -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 pb-3">
+  <header class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
       <div class="container">
-        <a class="navbar-brand mb-3" href="index.html">
-          <img src="../img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo" loading="lazy">
           <b>My Website</b>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto flex-column">
-            <li class="nav-item active warna-bg">
-              <a class="nav-link" style="color: white;" aria-current="page" href="index.html">
-                <span class="sl-only ml-2">Home</span>
-              </a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: black;" href="about.html">
-                <span class="ml-2">About</span>
-              </a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: black;" href="rules.html">
-                <span class="ml-2">Terms</span>
-              </a>
+              <a class="nav-link" href="terms.html">Terms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: black;" href="contacts.html">
-                <span class="ml-2">Contacts</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-                <span class="btn btn-sm btn-primary ml-3 mt-2">Made By zуιαиg 것ダ</span>
-              </a>
+              <a class="nav-link" href="contacts.html">Contacts</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
@@ -62,58 +49,16 @@
   <!-- Akhir Navbar -->
   <!-- Awal Jumbotron -->
   <section class="jumbotron-bg">
-    <div class="jumbotron warna-bg text-white text-center">
+    <div class="jumbotron warna-bg">
       <div class="container">
-        <h1 class="display-4">SELAMAT DATANG</h1>
-        <p class="lead">Hallo, Selamat Datang di website Baraya Roleplay, Apa kabar kalian yang berbahagia? Pasti sehat selalu ya dan jangan lupa untuk menjaga kesehatan, makan yang cukup, jaga kebersihan, olahraga secara teratur dan beraktivitas dirumah aja.</p>
-        <a class="btn btn-primary btn-lg" href="login.html" role="button">Sign in</a>
-        <a class="btn btn-primary btn-lg" href="register.html" role="button">Sign up</a>
+        <h5 class="title display-3 text-center"><b>Selamat Datang</b></h5>
+        <p class="subtitle lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
     </div>
   </section>
   <!-- Akhir Jumbotron -->
-  <!-- Awal Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 mb-4">
-        <div class="card bg-light">
-          <h3 class="card-header text-center text-white bg-primary">Description</h3>
-          <div class="card-body">
-            <h5 class="card-title text-center" style="text-decoration: bold; color: black;">
-              Baraya Roleplay New Generation
-            </h5>
-            <p class="card-text">
-              Baraya Roleplay adalah salah satu server GTA SAMP yang di buat dengan penuh semangat kepada kalian para player kami. Baraya Roleplay adalah server Hard RP yang dimana kita harus mematuhi semua peraturan yang ada, tapi tenang sambil kita serius akan ada hiburan sebentar atau event seperti balap dan lain lain yang pastinya sangat seru dan sangat memuaskan kalian.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Akhir Content -->
-  <!-- Awal Jumbotron 2 -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <img src="../img/logo.png" class="img-thumbnail">
-        </div>
-        <div class="col-md-9">
-          <h2>Baraya Roleplay New Generation</h2>
-          <p class="lead">Server <b>Baraya Roleplay</b> merupakan komunitas server SAMP (San Andreas MultiPlayer) dengan anggota di Discord kurang lebih 7k dan di dalam game sangat sedikit tetapi tetap santuy dengan fitur yang sangat sangat sangat menarik dan memuaskan!!!.</p>
-          <button type="button" class="btn btn-primary" href="about.html">Read More...</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Akhir Jumbotron 2 -->
-  <!-- Awal Footer -->
-  <footer class="warna-bg">
-    <div class="text-white text-center pt-3 pb-3">
-      Copyright &copy; 2020-2021 - All Rights Reserved - Baraya Roleplay
-    </div>
-  </footer>
-  <!-- Akhir Footer -->
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
