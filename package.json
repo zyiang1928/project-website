@@ -8,7 +8,7 @@
   "repository": "github:zyiang1928/project-website",
   "bugs": "https://github.com/zyiang1928/project-website/issues",
   "engines": {
-    "node": "12.x",
+    "node": ">=12.0.0",
     "npm": "*"
   },
   "dependencies": {
