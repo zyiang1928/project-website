@@ -1,10 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
 #home {
   background: black;
   color: white;
 }
 
 .warna-bg {
-  background: linear-gradient(to right, rgba(91, 134, 229, .92), rgba(54, 209, 220, .92));
+  background: linear-gradient(to right, rgba(91, 134, 229, .92), rgba(0, 0, 139, .92));
 }
 
 .jumbotron-bg {
