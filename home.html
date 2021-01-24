@@ -37,6 +37,17 @@
             <li class="nav-item">
               <a class="nav-link" href="contacts.html">Contacts</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
           </ul>
           <!-- form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search" aria-label="Search">
@@ -56,7 +67,9 @@
         <p class="subtitle lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4" style="border-bottom: 1px solid white;">
         <div class="text-center">
-          <!-- a class="btn btn-primary btn-lg" href="#" role="button">Learn More...</a -->
+          <a class="btn btn-light btn-lg" role="button">
+            Hallo <?php echo $_SESSION['name']; ?>
+          </a>
         </div>
       </div>
     </div>
