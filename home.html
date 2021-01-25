@@ -13,20 +13,19 @@
 
 <body id="home">
   <!-- Awal Navbar -->
-  <header class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pt-3 pb-3">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand mr-auto mr-lg-0" href="home.html">
           <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top rounded-circle" alt="logo" loading="lazy">
-          <b>My Website</b>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
@@ -49,9 +48,9 @@
               </div>
             </li>
           </ul>
-          <!-- form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button -->
+          <form class="form-inline my-2 my-sm-2">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -67,9 +66,9 @@
         <p class="subtitle lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4" style="border-bottom: 1px solid white;">
         <div class="text-center">
-          <a class="btn btn-light btn-lg" role="button">
-            Hallo <?php echo $_SESSION['name']; ?>
-          </a>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Hallo <span class="badge badge-light"><?php echo $_SESSION['name']; ?></span>
+          </button>
         </div>
       </div>
     </div>
