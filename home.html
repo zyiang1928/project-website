@@ -11,10 +11,10 @@
   <title>Home | My Website</title>
 </head>
 
-<body id="home">
+<body>
   <!-- Awal Navbar -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pt-3 pb-3">
+    <nav class="navbar navbar-expand-sm navbar-light pt-3 pb-3">
       <div class="container">
         <a class="navbar-brand mr-auto mr-lg-0" href="home.html">
           <img src="img/logo.png" width="100" height="50" class="d-inline-block align-top" alt="logo" loading="lazy">
@@ -25,16 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="terms.html">Terms</a>
+              <a class="nav-link" href="#">Terms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Contacts</a>
+              <a class="nav-link" href="#">Contacts</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,7 +50,7 @@
           </ul>
           <form class="form-inline my-2 my-sm-2">
             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -58,17 +58,19 @@
   </header>
   <!-- Akhir Navbar -->
   <!-- Awal Jumbotron -->
-  <section class="jumbotron-bg">
-    <div class="jumbotron warna-bg">
-      <div class="container">
-        <h4 class="title display-3 text-center mb-3"><b>Selamat Datang</b></h4>
-        <hr class="my-4" style="border-bottom: 2px solid white">
-        <p class="subtitle lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4" style="border-bottom: 1px solid white;">
-        <div class="text-center">
-          <button type="button" class="btn btn-secondary btn-lg">
-            Hallo <span class="badge badge-light"><?php echo $_SESSION['name']; ?></span>
-          </button>
+  <section>
+    <div class="jumbotron-bg">
+      <div class="jumbotron warna-bg">
+        <div class="container">
+          <h4 class="title display-3 text-center mb-3"><b>Selamat Datang</b></h4>
+          <hr class="my-4" style="border-bottom: 2px solid white">
+          <p class="subtitle lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4" style="border-bottom: 1px solid white;">
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg">
+              Hallo <span class="badge badge-light"><?php echo $_SESSION['name']; ?></span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

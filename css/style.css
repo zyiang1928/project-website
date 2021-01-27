@@ -5,17 +5,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-#home {
-  background: black;
+.jumbotron-bg {
+  background-size: cover;
+  background: url("../img/background.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
   color: white;
 }
 
 .warna-bg {
   background: linear-gradient(to right, rgba(91, 134, 229, .92), rgba(0, 0, 139, .92));
-}
-
-.jumbotron-bg {
-  background-size: cover;
-  background: url("../img/background.png");
-  background-size: 300px;
 }
