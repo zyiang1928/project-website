@@ -8,6 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
   <title>Home | Sky Store</title>
 </head>
 
@@ -16,14 +17,14 @@
   <header>
     <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand mr-auto mr-lg-0" href="home.html">
+        <a class="navbar-brand animate__animated animate__fadeInLeft mr-auto mr-lg-0" href="home.html">
           <img src="img/logo.png" width="100" class="d-inline-block align-top" alt="logo" loading="lazy">
         </a>
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto animate__animated animate__fadeInDown">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -40,7 +41,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Account
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-menu animate__animated animate__fadeInDown" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Profile</a>
                 <a class="dropdown-item" href="#">Settings</a>
                 <div class="dropdown-divider"></div>
@@ -48,7 +49,7 @@
               </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-sm-2">
+          <form class="form-inline animate__animated animate__slideInRight my-2 my-sm-2">
             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
           </form>
@@ -62,14 +63,16 @@
     <div class="jumbotron-bg">
       <div class="jumbotron warna-bg">
         <div class="container">
-          <h4 class="title display-3 text-white text-center mb-3"><b>Welcome</b></h4>
-          <hr class="my-4" style="border-bottom: 1px solid white">
-          <p class="subtitle lead text-white">Selamat Datang di <b>Sky Store</b>, silahkan pilih produk apa yang ingin anda beli. Terima kasih sudah belanja disini <b>Happy Shopping</b>😊🤗.</p>
-          <hr class="my-4" style="border-bottom: 1px solid white;">
-          <div class="text-center">
-            <button type="button" class="btn btn-primary btn-lg">
-              Hallo <span class="badge badge-light"><?php echo $_SESSION['name']; ?></span>
-            </button>
+          <div class="animate__animated animate__zoomIn">
+            <h4 class="title display-3 text-white text-center mb-3"><b>Welcome</b></h4>
+            <hr class="my-4" style="border-bottom: 1px solid white">
+            <p class="subtitle lead text-white">Selamat Datang di <b>Sky Store</b>, silahkan pilih produk apa yang ingin anda beli. Terima kasih sudah belanja disini <b>Happy Shopping</b>😊🤗.</p>
+            <hr class="my-4" style="border-bottom: 1px solid white;">
+            <div class="text-center">
+              <button type="button" class="btn btn-primary btn-lg">
+                Hallo <span class="badge badge-light"><?php echo $_SESSION['name']; ?></span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
