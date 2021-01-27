@@ -8,7 +8,9 @@
 .jumbotron-bg {
   background-size: cover;
   background: url("../img/background.png");
-  background-size: 300px;
+  background-size: 320px;
+  background-color: black;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
