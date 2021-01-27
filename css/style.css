@@ -5,6 +5,63 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* merubah warna background body menjadi biru */
+body {
+  padding-top: 56px;
+  background-color: white !important;
+}
+
+/* Merubah warna hover */
+.nav-link:focus,
+.nav-link:hover {
+  color: #16181b;
+  padding: 5px 10px;
+  width: 300px;
+  text-decoration: none;
+  background-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .92);
+}
+
+/* merubah warna background dropdown */
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+  position: absolute;
+  background-color: white;
+}
+
+/* merubah warna hover dropdown */
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  padding: 5px 30px;
+  width: 160px;
+  text-decoration: none;
+  background-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .92);
+}
+
+/* Membuat Dropdown Terbuka Otomatis */
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* menghilangkan tanda panah kebawah (bottom arrow) */
+a.menu:after,
+.dropdown-toggle:after {
+  content: none;
+}
+
 .jumbotron-bg {
   background-size: cover;
   background: url("../img/background.png");
