@@ -15,8 +15,6 @@ body {
 .nav-link:focus,
 .nav-link:hover {
   color: #16181b;
-  padding: 5px 10px;
-  width: 300px;
   text-decoration: none;
   background-color: #007bff;
   box-shadow: 0 0 10px rgba(0, 0, 0, .92);
@@ -32,8 +30,6 @@ body {
 .dropdown-item:focus,
 .dropdown-item:hover {
   color: #16181b;
-  padding: 5px 30px;
-  width: 160px;
   text-decoration: none;
   background-color: #007bff;
   box-shadow: 0 0 10px rgba(0, 0, 0, .92);
