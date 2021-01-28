@@ -21,30 +21,6 @@ body {
   z-index: 1000;
 }
 
-/* Text Loading */
-h2 {
-  display: block;
-  position: relative;
-  top: 13%;
-  font-size: 50px;
-  font-family: Brush Script Std;
-  letter-spacing: 4px;
-  text-align: center;
-  color: #2197fb;
-  z-index: 1001;
-  animation: mymove 1.5s infinite alternate;
-}
-
-@keyframes mymove {
-  0% {
-    opacity: 100;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
 /* Loader Animation */
 #loader {
   display: block;
@@ -132,11 +108,6 @@ h2 {
 }
 
 .loaded #loader {
-  opacity: 0;
-  transition: all 0.3s ease-out;
-}
-
-.loaded h2 {
   opacity: 0;
   transition: all 0.3s ease-out;
 }
