@@ -13,15 +13,17 @@
 </head>
 
 <body>
+  <!-- Awal Loading Page -->
   <div id="loader-wrapper">
     <h2>Loading...</h2>
     <div id="loader"></div>
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
   </div>
+  <!-- Akhir Loading Page -->
   <!-- Awal Navbar -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark animate__animated animate__fadeInDown">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand mr-auto mr-lg-0" href="home.html">
           <img src="img/logo.png" width="100" class="d-inline-block align-top" alt="logo" loading="lazy">
@@ -115,13 +117,11 @@
     <div class="jumbotron-bg">
       <div class="jumbotron warna-bg">
         <div class="container">
-          <div class="animate__animated animate__zoomIn">
-            <h4 class="title display-3 text-white text-center mb-3"><b>Welcome</b></h4>
-            <hr class="my-4" style="border-bottom: 1px solid white">
-            <p class="subtitle lead text-white">Selamat Datang di <b>Sky Store</b>, silahkan pilih produk apa yang ingin anda beli. Terima kasih sudah belanja disini <b>Happy Shopping</b>😊🤗.</p>
-            <hr class="my-4" style="border-bottom: 1px solid white;">
-          </div>
-          <div class="text-center animate__animated animate__bounce">
+          <h4 class="title display-3 text-white text-center mb-3"><b>Welcome</b></h4>
+          <hr class="my-4" style="border-bottom: 1px solid white">
+          <p class="subtitle lead text-white">Selamat Datang di <b>Sky Store</b>, silahkan pilih produk apa yang ingin anda beli. Terima kasih sudah belanja disini <b>Happy Shopping</b>😊🤗.</p>
+          <hr class="my-4" style="border-bottom: 1px solid white;">
+          <div class="text-center">
             <button type="button" class="btn btn-primary btn-lg mb-3">
               Hallo <span class="badge badge-light"><?php echo $_SESSION['name']; ?></span>
             </button>
