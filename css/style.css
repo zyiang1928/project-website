@@ -22,7 +22,6 @@ body {
 
 /* merubah warna background dropdown */
 .navbar-expand-sm .navbar-nav .dropdown-menu {
-  position: absolute;
   background-color: white;
 }
 
