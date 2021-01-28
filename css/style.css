@@ -93,18 +93,18 @@ body {
 
 /* merubah warna background dropdown */
 .navbar-expand-sm .navbar-nav .dropdown-menu {
-  position: relative;
   color: #2197f3;
-  text-decoration: none;
   background-color: white;
 }
 
 /* merubah warna hover dropdown */
 .dropdown-item:focus,
 .dropdown-item:hover {
+  position: relative;
   color: #255784;
   background-color: #2196f3;
   box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+  text-decoration: none;
 }
 
 .dropdown-item span {
