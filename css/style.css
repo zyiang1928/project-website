@@ -291,7 +291,7 @@ a.menu:after,
   background-size: cover;
   background: url("../img/background.png");
   background-size: 100vh;
-  background-color: black;
+  background-color: black !important;
   background-position: center;
   background-repeat: no-repeat;
 }
