@@ -80,25 +80,52 @@ body {
 }
 
 /*Text Loading */
+.animasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  background: #031321;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h2 {
-  display: block;
+  display: inline-block;
   position: relative;
-  top: 13%;
-  font-size: 50px;
-  font-family: Brush Script Std;
-  text-align: center;
-  color: blue;
+  padding: 15px 30px;
+  top: 50%;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 4px;
+  border: 1px solid #2192f3;
+  box-shadow: 0 0 10px #2192f3, 0 0 40px #2192f3, 0 0 80px #2192f3;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
   z-index: 1001;
   animation: mymove 1.5s infinite alternate;
 }
 
 @keyframes mymove {
   0% {
-    opacity: 100;
+    /* background: #2192f3; */
+    border: 1px solid #2192f3;
+    box-shadow: 0 0 10px #2192f3, 0 0 40px #2192f3, 0 0 80px #2192f3;
+    transition: 1.5s;
+  }
+  
+  50% {
+    /* background: #00FFDD; */
+    border: 1px solid #00FFDD;
+    box-shadow: 0 0 10px #00FFDD, 0 0 40px #00FFDD, 0 0 80px #00FFDD;
+    transition: 1.5s;
   }
 
   100% {
-    opacity: 0;
+    /* background: #00FF00; */
+    border: 1px solid #00FF00;
+    box-shadow: 0 0 10px #00FF00, 0 0 40px #00FF00, 0 0 80px #00FF00;
+    transition: 1.5s;
   }
 }
 
