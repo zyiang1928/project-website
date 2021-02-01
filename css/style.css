@@ -62,8 +62,6 @@ body {
   bottom: 40px;
   border-radius: 50%;
   border: 5px solid transparent;
-  border-top-color: orange;
-  border-bottom-color: orange;
   border-top-color: #f9c922;
   border-bottom-color: #f9c922;
   z-index: 1001;
