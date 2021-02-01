@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-section {
+#gelombang {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -11,7 +11,7 @@ section {
   overflow: hidden;
 }
 
-section .air {
+#gelombang .air {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,7 +21,7 @@ section .air {
   background-size: 1000px 100px
 }
 
-section .air.air1 {
+#gelombang .air.air1 {
   animation: wave 30s linear infinite;
   z-index: 1000;
   opacity: 1;
@@ -29,7 +29,7 @@ section .air.air1 {
   bottom: 0;
 }
 
-section .air.air2 {
+#gelombang .air.air2 {
   animation: wave2 15s linear infinite;
   z-index: 999;
   opacity: 0.5;
@@ -37,7 +37,7 @@ section .air.air2 {
   bottom: 10px;
 }
 
-section .air.air3 {
+#gelombang .air.air3 {
   animation: wave 30s linear infinite;
   z-index: 998;
   opacity: 0.2;
@@ -45,7 +45,7 @@ section .air.air3 {
   bottom: 15px;
 }
 
-section .air.air4 {
+#gelombang .air.air4 {
   animation: wave2 5s linear infinite;
   z-index: 997;
   opacity: 0.7;
