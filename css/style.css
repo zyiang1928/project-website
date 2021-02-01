@@ -299,3 +299,48 @@ a.menu:after,
 .warna-bg {
   background: linear-gradient(to right, rgba(91, 134, 229, .92), rgba(0, 0, 139, .92));
 }
+
+.card:hover {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  top: 5%;
+  bottom: 5%;
+  transform: translateY(5%);
+  overflow: hidden;
+  transition: 1s;
+  z-index: 1001;
+  animation: kartu 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes kartu {
+  0% {
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px skyblue, 0 0 40px skyblue, 0 0 80px skyblue;
+    top: 5%;
+    bottom: 5%;
+    transform: translateY(-5%);
+    transition: 1.5s;
+    transition-delay: 2s;
+  }
+
+  50% {
+    border: 1px solid aqua;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    top: 5%;
+    bottom: 5%;
+    transform: translateY(5%);
+    transition: 1.5s;
+    transition-delay: 2s;
+  }
+
+  100% {
+    border: 1px solid lime;
+    box-shadow: 0 0 10px lime, 0 0 40px lime, 0 0 80px lime;
+    top: 5%;
+    bottom: 5%;
+    transform: translateY(-5%);
+    transition: 1.5s;
+    transition-delay: 2s;
+  }
+}
