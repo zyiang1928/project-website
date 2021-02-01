@@ -187,7 +187,7 @@ h2 {
   display: block;
 }
 
-/* Animasi percobaan */
+/* Animasi navbar Button */
 .nav-link span:nth-child(1) {
   top: 0;
   left: -100%;
@@ -300,6 +300,7 @@ a.menu:after,
   background: linear-gradient(to right, rgba(91, 134, 229, .92), rgba(0, 0, 139, .92));
 }
 
+/* Membuat animasi card hover */
 .card:hover {
   display: block;
   position: relative;
