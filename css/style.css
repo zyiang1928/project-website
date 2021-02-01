@@ -92,7 +92,7 @@ h2 {
   text-decoration: none;
   text-align: center;
   overflow: hidden;
-  transition: 0.5s;
+  transition: 1s;
   z-index: 1001;
   animation: mymove 1.5s ease-in-out infinite alternate;
 }
@@ -101,22 +101,22 @@ h2 {
   0% {
     color: #2192f3;
     text-shadow: 0 0 10px #2192f3, 0 0 40px #2192f3, 0 0 80px #2192f3;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 1.5s;
+    transition-delay: 2s;
   }
 
   50% {
     color: #00FFDD;
     text-shadow: 0 0 10px #00FFDD, 0 0 40px #00FFDD, 0 0 80px #00FFDD;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 1.5s;
+    transition-delay: 2s;
   }
 
   100% {
     color: #00FF00;
     text-shadow: 0 0 10px #00FF00, 0 0 40px #00FF00, 0 0 80px #00FF00;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 1.5s;
+    transition-delay: 2s;
   }
 }
 
