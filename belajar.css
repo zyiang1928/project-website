@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Open Sans' sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #FF0000;
+}
+
+section h2 {
+  display: block;
+  position: relative;
+  top: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+section .banner {
+  display: block;
+  position: absolute;
+}
