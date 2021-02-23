@@ -253,7 +253,7 @@ h2 {
 /* merubah warna background dropdown */
 .navbar-expand-sm .navbar-nav .dropdown-menu {
   color: #2197f3;
-  background-color: white;
+  background-color: white !important;
 }
 
 /* merubah warna hover dropdown */
@@ -299,7 +299,6 @@ a.menu:after,
   background-size: cover;
   background: url("../img/background.png");
   background-size: 100vh;
-  background-color: black !important;
   background-position: center;
   background-repeat: repeat;
 }
