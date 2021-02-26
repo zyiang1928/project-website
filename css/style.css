@@ -300,7 +300,7 @@ a.menu:after,
   background: url("../img/background.png");
   background-size: 100vh;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .warna-bg {
